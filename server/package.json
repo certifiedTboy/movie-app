@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "nodemon src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node src/server.js"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.9",
