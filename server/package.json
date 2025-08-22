@@ -8,7 +8,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.ts"
+    "dev": "nodemon src/server.ts",
+    "start": "nodemon --exec ts-node src/server.ts"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.9",
@@ -27,6 +28,7 @@
     "googleapis": "^156.0.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.17.1",
-    "nodemailer": "^7.0.5"
+    "nodemailer": "^7.0.5",
+     "nodemon": "^3.1.10"
   }
 }
