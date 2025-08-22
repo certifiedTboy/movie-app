@@ -11,7 +11,10 @@ const not_found_exception_1 = require("./lib/exceptions/not-found-exception");
 const apiV1Routes_1 = __importDefault(require("./routes/apiV1Routes"));
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)({
-    origin: ["http://localhost:5173"],
+    origin: [
+        "http://localhost:5173",
+        "https://movie-app-two-sepia-10.vercel.app",
+    ],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     optionsSuccessStatus: 200,
     credentials: true,
